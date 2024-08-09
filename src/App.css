@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+input {
+  padding-block: 12px;
+}
+form-group input,
+.form-group {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.details-table th,
+.details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.details-table th {
+  background-color: #f2f2f2;
+}
